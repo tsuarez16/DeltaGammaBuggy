@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Delta Gamma Buggy Team</title>
+    <meta name="author" content="Tate Suarez" >
+    <link rel="stylesheet" href="Ind1Homework.css">
+</head>
+<body>
+    <h1>Delta Gamma BuggysRace Team</h1>
+    <img src="DG_Navy.png" alt="DG Logo" class = "logo">
+     <nav>
+         <ul class="nav-links">
+            <li><a href= "index.html">Home</a></li>
+            <li><a href= "highlights.html">Highlights</a></li>
+            <li><a href= "team.html">Team Roster</a></li>
+            <li><a href= "register.html">Register</a></li>
+            <li><a href= "map.html">Race Map</a></li>
+        </ul>
+    </nav>
+
+    <h2>JOIN DG BUGGY!</h2>
+    <p>Interested in joining the Delta Gamma Buggy Team? We are always looking for passionate and dedicated members to join our team.</p>
+
+    <form action="submit_form.php" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="year">Year:</label><br>
+        <select id="year" name="year" required>
+            <option value="freshman">Freshman</option>
+            <option value="sophomore">Sophomore</option>
+            <option value="junior">Junior</option>
+            <option value="senior">Senior</option>
+        </select><br><br>
+
+        <label for="role">Preferred Role:</label><br>
+        <select id="role" name="role" required>
+            <option value="pusher">Pusher</option>
+            <option value="mechanic">Mechanic</option>
+            <option value="designer">Designer</option>
+            <option value="other">Other</option>
+        </select><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+</body>

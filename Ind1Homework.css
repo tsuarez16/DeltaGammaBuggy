@@ -1,0 +1,130 @@
+    body {
+            background-color: rgb(235, 245, 290);      
+            border-width: 15px;
+            font-family: 'Franklin Gothic Medium';
+            font-size: medium;
+            font-weight: normal;
+            text-shadow: 1px 1px 1px lightgrey;
+            margin: 40px;
+            text-align: left;
+            padding: 20px;
+            color: darkblue;}
+    nav {
+        background: lightgoldenrodyellow;
+        padding: 1rem;
+        display: flex;
+        justify-content: center;
+        border-radius: 15px;
+    }
+    .nav-links {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display:flex;
+        flex-wrap:wrap;
+        justify-content: space-around;
+    }
+
+    .nav-links li a {
+        color: darkblue;
+        text-decoration: none;
+        padding: 0.5rem 1rem;
+    }
+    header {
+        text-transform: capitalize;
+        background-color: white;
+        text-shadow: 1px 1px 1px lightgrey;
+        color: white;
+        padding: 10px;
+        border-radius: 15px;
+    }
+    h1{
+        text-transform: capitalize;
+        text-align: center;
+        color: darkblue;
+    }
+    h2{
+        color: goldenrod;
+        text-align: center;
+        padding: 10px;
+        font-size: 25px;
+    }
+    .nav-links li a:visited{
+        text-decoration: none;
+        color: darkgoldenrod;}
+    .nav-links li a:hover{
+        text-decoration: none;
+        color: darkblue;}
+    a :hover {
+        text-decoration: none;
+        color: darkblue;}
+    .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    gap: 15px;
+    }
+
+    .gallery img {
+    width: 100%;
+    height: 200px;      
+    object-fit: cover;   
+    border-radius: 10px;
+    }
+
+    table{
+        border: 2px solid darkblue;
+        border-collapse: collapse;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .logo{
+        top: 30px;
+        position: absolute;
+        left: auto;
+        right: 300px;
+        width: 70px;
+        height: auto;
+    }
+        iframe {
+        display: block;
+        margin: 0 auto;
+    }
+    div img {
+        display: block;
+        margin: 0 auto;
+        width: 900px;
+        height: 620px;
+    }
+
+    td {
+        border: 1px solid darkblue;
+        text-align: center;
+        padding: 10px;
+    }
+    th {
+        border: 1px solid darkblue;
+        text-align: center;
+        padding: 10px;
+    }
+    table{
+        border-collapse: collapse;
+        width: 100%;
+        border: 1px solid darkblue;
+        border-radius: 10px;
+        background-color: lightgoldenrodyellow;
+    }
+    p{
+        font-size: 20px;
+        text-align: center;
+        overflow-wrap: normal;
+    }
+    .map-container iframe {
+        border: 10px solid darkblue;
+        border-radius: 100px;
+    }
+
+     .map-container img {
+        border-radius: 100px;
+        padding: 10px;
+    }
